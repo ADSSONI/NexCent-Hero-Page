@@ -1,0 +1,33 @@
+.manage {
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.manage h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.manage p {
+  color: #777;
+  margin: 10px 0 40px;
+}
+
+.manage-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: #00b14f;
+  margin-bottom: 10px;
+}

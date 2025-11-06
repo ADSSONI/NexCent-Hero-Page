@@ -1,0 +1,124 @@
+.marketing-section {
+  background-color: #f9fafb;
+  text-align: center;
+  padding: 80px 8%;
+}
+
+.marketing-header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.marketing-header p {
+  font-size: 18px;
+  color: #6b7280;
+  margin: 20px auto;
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+.marketing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.marketing-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  width: 330px;
+  padding-bottom: 25px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  /* justify-items: center ; */
+  align-items: center;
+}
+
+.marketing-card:hover {
+  transform: translateY(-5px);
+}
+
+.marketing-card img {
+  width: 100%;
+  height: 220px;
+  /* background: #000; placeholder for images */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.innetText{
+  position: relative;
+  z-index: 10;
+  margin-top: -70px;
+  text-align: center;
+  
+  width: 70%;
+  background-color: white;
+  /* border: solid gray 1px; */
+  border-radius: 10px;
+}
+
+.marketing-card h3 {
+  font-size: 15px;
+
+  color: #111827;
+  margin: 20px;
+  font-weight: 300;
+}
+
+.read-btn {
+  /* background-color: #22c55e; */
+  /* color: #fff; */
+  border: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  background: none;
+}
+
+.read-btn:hover {
+  background-color: #16a34a;
+}
+
+.explore-more {
+  background: #e1e1e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding-bottom: 30px;
+  padding-top:  80px  ;
+  /* max-width: 1100px; */
+  font-size: 16px;
+  color:#343434;
+  font-size: 25px;
+
+
+}
+.explore-more h1 {
+  /* font-size: 30px; */
+  /* font-weight: 500; */
+  font-weight: bold;
+  text-align: center;
+  word-spacing: 20px;
+}
+
+.explore-more button {
+  margin-top: 30px;
+  background-color: #188e43;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+

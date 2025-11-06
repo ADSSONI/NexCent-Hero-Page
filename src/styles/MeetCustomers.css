@@ -1,0 +1,77 @@
+.meet-section {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+  font-family: Arial, sans-serif;
+}
+
+.meet-container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Left side image */
+.meet-image img{
+  width: 400px;
+  height: 320px;
+  /* background-color: #000; */
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+/* Right side content */
+.meet-content {
+  max-width: 600px;
+}
+
+.meet-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.meet-content h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.company-name {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+/* Logos section */
+.meet-logos {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.logo img{
+  width: 60px;
+  height: 60px;
+  /* background-color: #000; */
+  border-radius: 10px;
+}
+
+/* Link button */
+.link {
+  color: #4caf50;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
